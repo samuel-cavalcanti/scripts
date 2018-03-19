@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 
 download_images(){
@@ -56,6 +56,5 @@ rename_files
 cd ..
 
 $python ./py_pdf.py $dir 1 186  "solidos.pdf"
-
 
 rm -rf $dir

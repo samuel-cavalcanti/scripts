@@ -29,8 +29,6 @@ def createPDF(listImage,nameFile):
 
     return
 
-
-
 if __name__ == "__main__":
 
     dir = sys.argv[1]
@@ -44,11 +42,3 @@ if __name__ == "__main__":
     print("creating PDF...")
 
     createPDF(images,nameFile)
-
-   
-
-
-   
-
-
-
