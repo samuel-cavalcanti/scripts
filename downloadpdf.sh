@@ -42,7 +42,6 @@ rename_files(){
     done
 
     mv $file"180"$end_file $n$end_file
-
 }
 
 dir="images/"
