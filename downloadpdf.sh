@@ -33,7 +33,6 @@ rename_files(){
 
     n=180
 
-
     for i in a b c d e f
     do  
         current_file=$file"17"$i$end_file
@@ -41,6 +40,8 @@ rename_files(){
         n=$((n+1))
         
     done
+
+    mv $file"180"$end_file $n$end_file
 
 }
 
