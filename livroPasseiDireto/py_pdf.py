@@ -30,7 +30,7 @@ def createPDF(listImage,nameFile):
     return
 
 if __name__ == "__main__":
-
+    
     dir = sys.argv[1]
     initImage = int(sys.argv[2])
     finalImage = int(sys.argv[3])
